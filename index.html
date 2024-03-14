@@ -1,0 +1,21 @@
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Messagerie Instantanée</title>
+    <!-- se qui sze trouve dans le dossier publique est considérer comme a la racine -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <ul id="messages"></ul>
+        
+        <form action="#" id="form">
+            <input id="pseudo" type="text" placeholder= "Saisissez votre pseudo">
+            <input type="text" id="input" autocomplete="off"placeholder= "Saisissez votre message">
+            <button>Envoyer</button>
+        </form>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+    </html>
